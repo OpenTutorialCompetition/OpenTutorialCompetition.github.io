@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Paytone One", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav bar logo */
+nav img {
+    width: 80px;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 10px;
+}
+
+/* nav bar right text */
+.mid-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+span {
+    color: #3E3D6D;  
+}
+
+/* nav bar center */
+.mid-links {
+    display: flex;
+    gap: 20px;
+}
+
+body {
+    background-color: #C3C2E2;
+}
+
+.now {
+    font-weight: bolder;
+    border-bottom: rgb(116, 69, 226) 3px solid;
+}
+
+/* COMPARISON */
+
+table {
+    margin: 50px 20px;
+    border: #3E3D6D solid 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:#a6a2ff;
+    box-shadow: 0px 2px 5px #3E3D6D;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+thead th {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+th {
+  letter-spacing: 2px;
+
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody th, tbody td {
+    border-bottom: #3E3D6D solid 3px;
+    padding: 20px 0;
+}
+
+tbody td {
+  text-align: left;
+}
+
+tfoot th {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+thead th{
+    border-bottom: #3E3D6D solid 3px;
+}
+
+.stickman {
+    width: 200px;
+    height: auto;
+}

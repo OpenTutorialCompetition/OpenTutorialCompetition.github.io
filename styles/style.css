@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+/* INDEX HTML */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Paytone One", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav bar logo */
+nav img {
+    width: 80px;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 10px;
+}
+
+/* nav bar right text */
+.mid-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+span {
+    color: #3E3D6D;  
+}
+
+/* nav bar center */
+.mid-links {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* hero */
+#hero {
+    background-color: #C3C2E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+.centre-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.title {
+    color: #3E3D6D;
+    font-size: 50px;
+}
+
+.content {
+    color: #4E4E4E;
+    font-size: 30px;
+}
+
+.btn {
+    border:#585699 3px solid;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color:#706EBE;
+    box-shadow: 0px 2px 5px #3E3D6D;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+/* content */
+#content {
+    background-color: #E0DFFF;
+    display:flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+#content .title {
+    background-color: #C3C2E2;
+    width: 300px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 3px 7px #3E3D6D;
+    margin-bottom: 70px;
+}
+
+#content .content{
+    padding: 0 20px;
+    max-width: 1000px;
+    flex-shrink: 1;
+    align-self: center;
+    margin: 0 30px;
+    text-align:center;
+}
+
+#content span {
+    color: #3E3D6D; 
+    font-weight:bold;
+}
+
+.title span {
+    font-family: "Paytone One", sans-serif;
+}
+
+#content img {
+    width: 100px;
+    height: auto;
+    align-self: center;
+}
+
+.remark {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: #787878;
+}
+
+.now {
+    font-weight: bolder;
+    border-bottom: rgb(116, 69, 226) 3px solid;
+}

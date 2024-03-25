@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Paytone One", sans-serif;
+}
+
+/* nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav bar logo */
+nav img {
+    width: 80px;
+    height: auto;
+    flex-shrink: 0;
+    padding-right: 10px;
+}
+
+/* nav bar right text */
+.mid-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+span {
+    color: #3E3D6D;  
+}
+
+/* nav bar center */
+.mid-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* SELF-QUIZ HTML */
+
+body {
+    background-color: #C3C2E2;
+    display: flex;
+    flex-direction: column;
+}
+
+#app {
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 0px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#app h1 {
+    font-size: 30px;
+    color: #3E3D6D;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+#quiz {
+    padding: 20px 0;
+}
+
+/* quiz  */
+/* quiz question styling */
+#quiz #question {
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #3E3D6D;
+    font-weight: bold;
+}
+
+/* quiz options styling */
+button {
+    border:#7370cc 3px solid;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:#a6a2ff;
+    box-shadow: 0px 2px 5px #3E3D6D;
+    font-size: 20px;
+    width: 100%;
+}
+
+button:hover {
+    box-shadow: 0px 10px 10px #3E3D6D;
+    transform: translateY(-8px);
+    transition-property: all;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+
+}
+
+/* stickman */
+img {
+    height: 200px;
+    width: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+
+.star_stickman {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.now {
+    font-weight: bolder;
+    border-bottom: rgb(116, 69, 226) 3px solid;
+}
